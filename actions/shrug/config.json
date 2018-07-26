@@ -2,5 +2,7 @@
   "exportId" : "wM3mN2MsQZmMsb5Y2m5OAA",
   "name" : "shrug",
   "forcePrivateResponse" : false,
-  "isDataType" : false
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
 }

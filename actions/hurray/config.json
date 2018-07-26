@@ -2,5 +2,7 @@
   "exportId" : "7FTc105BTPG4vCmqaDKzxQ",
   "name" : "hurray",
   "forcePrivateResponse" : false,
-  "isDataType" : false
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
 }

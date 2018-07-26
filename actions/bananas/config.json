@@ -2,5 +2,7 @@
   "exportId" : "_qssf_rPTim5PL-Pt4RbTg",
   "name" : "bananas",
   "forcePrivateResponse" : false,
-  "isDataType" : false
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
 }
