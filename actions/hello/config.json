@@ -2,5 +2,7 @@
   "exportId" : "EswSo3d0SHeN8T_6U1tr_w",
   "name" : "hello",
   "forcePrivateResponse" : false,
-  "isDataType" : false
+  "canBeMemoized" : false,
+  "isDataType" : false,
+  "isTest" : false
 }
