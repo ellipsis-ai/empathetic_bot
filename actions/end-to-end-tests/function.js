@@ -10,7 +10,7 @@ test('insult', function (t) {
     t.plan(2);
   
     api.run({ trigger: "…insult @someone" }).then(res => {
-      console.log(`The results was: ${res}`);
+      console.log(`The results are: ${res}`);
       const matches = res.match(/\@someone/g);
       t.assert(matches);
       t.equal(matches.length, 1);
