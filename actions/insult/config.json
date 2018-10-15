@@ -1,7 +1,7 @@
 {
   "exportId" : "LHWQuqFkSTaZOZhIF43gMA",
   "name" : "insult",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : false,
   "isDataType" : false,
   "isTest" : false

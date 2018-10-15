@@ -1,7 +1,7 @@
 {
   "exportId" : "wM3mN2MsQZmMsb5Y2m5OAA",
   "name" : "shrug",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : false,
   "isDataType" : false,
   "isTest" : false
