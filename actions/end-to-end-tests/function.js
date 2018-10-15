@@ -7,13 +7,15 @@ test.onFailure(ellipsis.error);
 test.onFinish(() => ellipsis.success("All passed!"));
 
 test('insult', function (t) {
-    t.plan(2);
+    t.plan(1);
   
-    api.run({ trigger: "…insult @someone" }).then(res => {
+    const args = [
+      { name: "someone", value: "@user" }
+    ];
+    api.run({ actionName: "insult", args: args }).then(res => {
       console.log(`The results are: ${res}`);
-      const matches = res.match(/\@someone/g);
+      const matches = res.match(/\@user/g);
       t.assert(matches);
-      t.equal(matches.length, 1);
     });
   
 });
